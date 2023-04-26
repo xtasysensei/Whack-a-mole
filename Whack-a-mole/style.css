@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 15px;
+	background-color: rgba(1, 107, 1, 0.699);
+}
+
+h3,
+h4 {
+	color: white;
+}
+
+img {
+	height: 60px;
+	width: 60px;
+}
+
+.start {
+	padding: 10px;
+	text-align: center;
+	background-color: rgb(5, 42, 143);
+	color: white;
+	border-radius: 30px;
+	border: 4px solid rgb(1, 34, 15);
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.start:active {
+	background-color: rgb(206, 138, 12);
+	color: rgb(255, 255, 255);
+}
+
+.stop {
+	padding: 10px;
+	text-align: center;
+	background-color: rgb(136, 8, 48);
+	color: white;
+	border-radius: 30px;
+	border: 4px solid rgb(1, 34, 15);
+	font-family: cursive;
+}
+
+.stop:active {
+	background-color: rgb(218, 145, 12);
+	color: rgb(255, 255, 255);
+}
+
+.speed {
+	padding: 5px;
+	text-align: center;
+	background-color: rgb(155, 8, 131);
+	color: white;
+	border-radius: 30px;
+	border: 3px solid rgb(1, 34, 15);
+	font-family: cursive;
+}
+
+.speed:active {
+	background-color: rgb(218, 145, 12);
+	color: rgb(255, 255, 255);
+}
+
+.title {
+	border: 7px solid rgb(136, 20, 20);
+	padding: 5px;
+	width: fit-content;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: cursive;
+	padding: 10px;
+	font-size: 35px;
+	border-radius: 30px;
+}
+
+.container {
+	text-align: center;
+	font-family: cursive;
+}
+
+.grid {
+	width: 390px;
+	height: 390px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: repeat(3, 130px);
+	gap: 20px;
+	margin: 10px auto;
+	margin-bottom: 50px;
+}
+
+.hole {
+	width: 130px;
+	height: 130px;
+	border: 5px solid black;
+	border-radius: 90px;
+	background-color: rgb(80, 38, 8);
+}
+
+.mole {
+	background-image: url("img/cute.jpg");
+	background-position: center;
+	background-size: contain;
+}
